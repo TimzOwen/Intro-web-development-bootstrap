@@ -1,0 +1,25 @@
+body {
+    background-color: yellow;
+}
+
+p {
+    color: red;
+    border: 1px solid powderblue;
+    font-size: 300%;
+    font-family: courier;
+}
+
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+    padding: 30px;
+}
+
+#selection {
+    color: orange;
+}
+
+p.error {
+    color: rgb(255, 0, 78)
+}
