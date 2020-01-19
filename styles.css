@@ -23,3 +23,39 @@ h1 {
 p.error {
     color: rgb(255, 0, 78)
 }
+
+table,
+th,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.centertable {
+    margin: 0px auto;
+}
+
+td,
+tr {
+    padding: 15px;
+    text-align: center;
+}
+
+table#t01 {
+    width: 100%;
+    background-color: #f1f1c1;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table#t01 th {
+    color: white;
+    background-color: black;
+}
