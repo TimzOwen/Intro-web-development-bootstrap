@@ -1,205 +1,265 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>web dev</title>
-        <style>
-        .cities {
-                background-color: Green;
-                color: red;
-                margin: 20px;
-                padding: 20px;
-                }
-            body{
-                background-color:yesno;
-            }
-            p{
-                color:red
-            }
-            h2{
-                color:tomato;
-            }
-        </style> 
-        <link rel="stylesheet" href="styles.css">
-        <!--External linking for css-->
-            <link rel="style" href="https://www.w3schools.com/html/styles.css"
-    </head>
-    <body >
-        <h1 style="text-align:center";> This heading is most important</h1>
-        <h2> This heading is not much important</h2>
-        <h6> This not even important</h6>
-        <img src="./assests/laptop.jpg" alt="laptop" width="500px" height="400px">
-        <img src="./assests/food4.jpg" alt="foods" width="500px" height="400px">
-        <img src="./assests/food3.jpg" alt="foods1" width="500px" height="400px">
-        <img src="./assests/food2.jpg" alt="food2" width="500px" height="400px"
-        <p style="font-size:40px"><br> This is a paragraph</h1>
-        <p style="color:red;">The Amereican Embassy got my passport on hold</p>
-        <p style="font-family:verdana">Fonted paragraph with style called verdana</P>
-        <h3 style="font-family:courier"> heading with font style called courier<h3/>
-        <hr>
-        <p>Learing web is amazing with HTML</p>
-        <p style="text-align:center">Centered paragraph</p>
-        <p> This is a <b>Bold Text with <ins> italic text too </p>
-        <a href="#" ><br>This is a link</a>
-        <strong><br>This text with more importance and emphasie</strong>
-        <em>emphasied text</em>
-        <button>button here</button>
-            <ul >
-                <li>Toshiba</li>
-                <li>Lenovo</li>
-                <li>Mac book</li>
-                <li>SamSung</li>
-            </ul>
-            <ol>
-                <li>Toshiba</li>
-                <li>Lenovo</li>
-                <li>SamSung</li>
-                <li>Mac Book</li>
-                <li>Hp Laptop</li>
-            </ol>
-                <!--prints exact out put as you type not ignoring anythingas <p> does-->
-                <pre>
-                    My Bonnie lies over the ocean.
+<html lang="en">
 
-                    My Bonnie lies          
-                                    over the sea.
+<head>
 
-                    My Bonnie lies        over the ocean.
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-                    Oh, bring back my Bonnie to me.
-                </pre>
-        <p> my Favourite coloe is<ins>color</ins> red</p>
-        <p> This is a <sub>scripted</sub> text </p>
-        <p> This is a <sup>Supercrited </sup> text</p>
-        <p> today is date 20<sup>th</sup> of January 2020 </p>   
-        <!--abbreviation and Quatatoin-->
-        <p><abbr title="WorldWideWeb">WWW </abbr> is the world most useful data </p>
-        <blockquote cite="www.carlifoniaa.com/data"> We are all same 
-            try to be different to win the game</blockquote>
-        <!--Adressing for contact info-->
-        <address>
-            Documented by Timz Owen<br>
-            PA at Andela Learning community<br>
-            contatc timz.owen@alcmail.ac.ke<br>
-            Kenya
-        </address>
-        <p><cite>Andela Learning Community </cite> used to site titles by browsers in Italic</p>
-        <bdo dir="rtl">Rights from right to left</bdo>
-        <!--Html colors used as HEX, CODE and HSL values-->
-            <h1 style="background-color:tomato;">H1 is background color of Tomato</h1>
-            <H2 style="border:2px solid DodgerBlue;">H2 with border color</h2>
-            <h3 style = "background-color: #6a5acd;">H3 has color code used</h3>
-            <p style="background-color: hsl(300, 76%, 71%);">paragraph with background color using HSL</p>
-        <!--Css Cascading Style Sheet-->
-            <!--Styling in inline, external, internal-->
-            <h1 style="color:Blue">The CSS styling here is inline using "style"</h1>
-            <p id="selection"> refer to the style using "style" from head section above</p>
-            <p class="error">for External add the "link and rel" on the head section as shown above </p>
+  <title>Creative - Start Bootstrap Theme</title>
 
-            <!--Tables. using table header, table row and table data-->
-        <table id="t01" align="center">
-        <caption>BootCamp Table</caption>
-            <tr>
-                <th>Day</th>
-                <th>8:00-10:00</th>
-                <th>11:00-1:00</th>
-                <th>2:00-4:00</th>
-            </tr>
-            <tr>
-                <td>Monday</td>
-                <td rowspan="2">Python</td>
-                <td>PHP</td>
-                <td>React</td>
-            </tr>
-            <tr>
-                <td>Tuesday</td>
-                <td colspan="2">Android programming</td>
-            </tr>
-            <tr>
-                <td>Wednesday</td>
-                <td>Robotics</td>
-                <td>IoT</td>
-                <td>Cisco Networks</td>
-            </tr>
-            <tr>
-                <td>Thursday</td>
-                <td>HTML</td>
-                <td>CSS</td>
-                <td>Java Script</td>
-            </tr>
-            <tr>
-                <td>Friday</td>
-                <td>FullStack</td>
-                <td>blockChain</td>
-                <td>AI/ML</td>
-            </tr>
-        </table>
-        <!--Description List-->
-        <dl>
-            <dt>Coffeee</dt>
-                <dd>Black Coffee</dd>
-            <dt>Tea</dt>
-                <dd>White Tea</dd>
-        </dl>
-             <!--Block, inline and Blocks using Span and div-->      
-        <div style="background-color:black;color:white;padding:20px;">
-        <h2>London</h2>
-        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-        </div> 
-        <h1>My <span style="color:red">Important</span> Heading</h1>
-        <h2>The <span style="background-color:green;color:yellow;padding:10px"> OpenCodefoundations</span> is this Sartuday</h2>
-        <div class="cities">
-        <h2>London</h2>
-        <p>London is the capital of England.</p>
+  <!-- Font Awesome Icons -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="https://www.eldohub.co.ke/innovation/">Eldohub Academy</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold">Welcome To Eldohub World-Class Technology School</h1>
+          <hr class="divider my-4">
         </div>
-
-        <div class="cities">
-        <h2>Paris</h2>
-        <p>Paris is the capital of France.</p>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">At Eldohub, We help you develop your mobile app and website idea with or amazing team of software engineers</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Let's do it </a>
         </div>
+      </div>
+    </div>
+  </header>
 
-        <div class="cities">
-        <h2>Tokyo</h2>
-        <p>Tokyo is the capital of Japan.</p>
+  <!-- About Section -->
+  <section class="page-section bg-primary" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">Let's start developing your idea</h2>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">We have been developing mobile applications and websites for different 
+          comapnies for the last 3 years and their feedback is always amazing. Trust our team to develop, make it onlinne and maintain for you</p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Our Services</a>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="cities">
-            <h2> Laptops for sale</h2>
-            <p> With awesome specs</p>
+  <!-- Services Section -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <h2 class="text-center mt-0">At Your Service</h2>
+      <hr class="divider my-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Co-working Spaces</h3>
+            <p class="text-muted mb-0">With our amazing co-working spaces,We build start-ups to world-class companie</p>
+          </div>
         </div>
-            <!--Navigation / slider images-->
-                <div class="slideshow middle">
-        <input type="radio" name="r" id="r1" checked>
-        <input type="radio" name="r" id="r2">
-        <input type="radio" name="r" id="r3">
-        <input type="radio" name="r" id="r4">
-        <input type="radio" name="r" id="r5">
-            <div class="slides">
-                <div class="slide">
-                    <img src="./assests/eldohub.png" alt="eldohub"
-                </div>
-                <div class="slide">
-                    <img src="./assests/food" alt="mentorship"
-                </div>
-                <div class="slide">
-                    <img src="./assests/eldohub1.jfif" alt="codeing"
-                </div>
-                <div class="slide">
-                    <img src="./assests/eldohub.png" alt="eldohub"
-                </div>
-                <div class="slide">
-                    <img src="./assests/eldohubi.jfif" alt="Bootcamp"
-                </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Programming/Coding</h3>
+            <p class="text-muted mb-0">Learn mobile,web, Gaming Among other professional courses we offer</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Publish/Deploy</h3>
+            <p class="text-muted mb-0">We maintain and host your website and mobile 
+            application by making it accesible to globally</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fab fa-4x fa-meetup text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Tech Meet ups</h3>
+            <p class="text-muted mb-0">We provide Tech meet ups at our spaces with  reliablee internet and amazing 
+            team of mentors for all the programs </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Monthly BootCamp
+              </div>
+              <div class="project-name">
+                Mobile App development
+              </div>
             </div>
-        
-            <div class="navigation">
-                <label for="" class="bar"></label>
-                <label for="" class="bar"></label>
-                <label for="" class="bar"></label>
-                <label for="" class="bar"></label>
-                <label for="" class="bar"></label>
-            </div>
+          </a>
         </div>
-    </body>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                NorthRift Women In STEM
+              </div>
+              <div class="project-name">
+                Web Session 
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Women in STEM
+              </div>
+              <div class="project-name">
+                Online safty Training 
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                North Rift Women in STEM
+              </div>
+              <div class="project-name">
+                United states Embassy coaching
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Teens Holiday BootCamp
+              </div>
+              <div class="project-name">
+                Game Developmet Training
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+            <div class="portfolio-box-caption p-3">
+              <div class="project-category text-white-50">
+                Mentorship
+              </div>
+              <div class="project-name">
+                mentor unbloacking session 
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="page-section bg-dark text-white">
+    <div class="container text-center">
+      <h2 class="mb-4">International programs and Mentorship</h2>
+      <a class="btn btn-light btn-xl" href="http://miliki.eldohub.co.ke/">Enroll now</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Let's Get In Touch!</h2>
+          <hr class="divider my-4">
+          <p class="text-muted mb-5"> Give us a call or send us an email and we will get back to you as soon as possible!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+          <div>(+254) 705 684 156)</div>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <!-- Make sure to change the email address in anchor text AND the link below! -->
+          <a class="d-block" href="mailto:contact@yourwebsite.com">info@eldohub.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="small text-center text-muted">Copyright &copy; 2019 - Eldohub Kenya</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+
+</body>
+
 </html>
